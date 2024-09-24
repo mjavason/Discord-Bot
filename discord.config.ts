@@ -18,5 +18,4 @@ client.on('messageCreate', (message) => {
 
 export const startBot = () => {
   client.login(process.env.DISCORD_BOT_TOKEN);
-
 };
